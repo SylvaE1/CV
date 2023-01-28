@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h1>Contact Information</h1>
+        <h3>Email</h3>
+        <p>testemail@gmail.com</p>
+        <h3>Phone</h3>
+        <P>(XXX) XXX-XXXX</P>
+        <hr size="2" noshade="2">
+        <br>
+        <form action="mailto:sehikioya@yahoo.com" method="post" enctype="text/plain"> <!--form used to create submissions like adding your name and password as seen below-->
+        <!--Note the action element in the form above, if entered Index.html it will take the user to this site after they click submits-->        
+            <label for="">Your Name: </label> 
+            <input type="text" name="yourName">
+            <br> <!--line break, creating new line-->
+            <label for=""> Your Email: </label>
+            <input type="email" name="yourEmail">
+            <br>
+            <br>
+            <label for="">Your Messege:</label>
+            <br>
+            <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit">
+            <br>
+            <!--code to add a password input to the form
+            <label for=""> Password: </label>
+            <input type="password">
+            <input type="submit">-->
+        </form>
+    </body>
+</html>
